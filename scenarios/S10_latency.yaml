@@ -1,0 +1,6 @@
+id: S10
+title: 500 ms extra delay on the detection stream
+duration: 45
+trajectory: {start_range: 60, entry_speed: 1.5, decel: 0.3, stop_line: 22.0}
+faults:
+  latency: {delay_s: 0.5}

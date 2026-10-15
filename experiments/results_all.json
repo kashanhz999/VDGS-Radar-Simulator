@@ -1,0 +1,1071 @@
+{
+  "seed": 2026,
+  "scenarios": {
+    "S3": {
+      "v1": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 0.4,
+            "range": 59.3841
+          },
+          {
+            "kind": "AIBT",
+            "t": 27.8,
+            "stop_range": 21.9867,
+            "dist_to_line": -0.0133
+          }
+        ],
+        "sensor_check_pct": 100.0,
+        "frames": 226,
+        "delivered": 226,
+        "track_range_rmse_cm": 0.870338722957078,
+        "track_speed_rmse_mps": 0.03136394204303951,
+        "capture_t": 0.4,
+        "capture_range_true": 59.4,
+        "aibt_count": 1,
+        "aibt_true": 27.833333333333332,
+        "aibt_err_s": -0.03333333333333144,
+        "stop_pos_err_m": -0.013317022031145598,
+        "reported_dist_to_line_m": -0.013317022031145598,
+        "tobt_reported_s": 2760.0,
+        "tobt_true_s": 2760.0,
+        "tobt_change_min": 0.0,
+        "overshoot_raised": false,
+        "track_lost": 0,
+        "obstacle_false_frames": 0,
+        "udp_latency_ms_median": 0.03494399993542174,
+        "udp_latency_ms_p99": 0.07932624998829851,
+        "msg_bytes_median": 521.0,
+        "pass": true
+      },
+      "v2": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 0.4,
+            "range": 59.3841
+          },
+          {
+            "kind": "AIBT",
+            "t": 27.8,
+            "stop_range": 21.9867,
+            "dist_to_line": -0.0133
+          }
+        ],
+        "sensor_check_pct": 100.0,
+        "frames": 226,
+        "delivered": 226,
+        "track_range_rmse_cm": 0.870338722957078,
+        "track_speed_rmse_mps": 0.03136394204303951,
+        "capture_t": 0.4,
+        "capture_range_true": 59.4,
+        "aibt_count": 1,
+        "aibt_true": 27.833333333333332,
+        "aibt_err_s": -0.03333333333333144,
+        "stop_pos_err_m": -0.013317022031145598,
+        "reported_dist_to_line_m": -0.013317022031145598,
+        "tobt_reported_s": 2760.0,
+        "tobt_true_s": 2760.0,
+        "tobt_change_min": 0.0,
+        "overshoot_raised": false,
+        "track_lost": 0,
+        "obstacle_false_frames": 0,
+        "pass": true
+      }
+    },
+    "S4": {
+      "v1": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 0.4,
+            "range": 58.97
+          },
+          {
+            "kind": "AIBT",
+            "t": 23.2,
+            "stop_range": 21.9945,
+            "dist_to_line": -0.0055
+          }
+        ],
+        "sensor_check_pct": 100.0,
+        "frames": 201,
+        "delivered": 201,
+        "track_range_rmse_cm": 0.9159774606433558,
+        "track_speed_rmse_mps": 0.03081247327909669,
+        "capture_t": 0.4,
+        "capture_range_true": 59.0,
+        "aibt_count": 1,
+        "aibt_true": 23.53333333333333,
+        "aibt_err_s": -0.3333333333333286,
+        "stop_pos_err_m": -0.005505260324298433,
+        "reported_dist_to_line_m": -0.005505260324298433,
+        "tobt_reported_s": 2760.0,
+        "tobt_true_s": 2760.0,
+        "tobt_change_min": 0.0,
+        "overshoot_raised": false,
+        "track_lost": 0,
+        "obstacle_false_frames": 0,
+        "udp_latency_ms_median": 0.03260999983467627,
+        "udp_latency_ms_p99": 0.1046080001287919,
+        "msg_bytes_median": 521.0,
+        "pass": true
+      },
+      "v2": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 0.4,
+            "range": 58.97
+          },
+          {
+            "kind": "AIBT",
+            "t": 23.2,
+            "stop_range": 21.9945,
+            "dist_to_line": -0.0055
+          }
+        ],
+        "sensor_check_pct": 100.0,
+        "frames": 201,
+        "delivered": 201,
+        "track_range_rmse_cm": 0.9159774606433558,
+        "track_speed_rmse_mps": 0.03081247327909669,
+        "capture_t": 0.4,
+        "capture_range_true": 59.0,
+        "aibt_count": 1,
+        "aibt_true": 23.53333333333333,
+        "aibt_err_s": -0.3333333333333286,
+        "stop_pos_err_m": -0.005505260324298433,
+        "reported_dist_to_line_m": -0.005505260324298433,
+        "tobt_reported_s": 2760.0,
+        "tobt_true_s": 2760.0,
+        "tobt_change_min": 0.0,
+        "overshoot_raised": false,
+        "track_lost": 0,
+        "obstacle_false_frames": 0,
+        "pass": true
+      }
+    },
+    "S5": {
+      "v1": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 0.4,
+            "range": 59.3841
+          },
+          {
+            "kind": "OVERSHOOT",
+            "t": 26.8,
+            "range": 21.4156
+          },
+          {
+            "kind": "AIBT",
+            "t": 28.6,
+            "stop_range": 20.9858,
+            "dist_to_line": -1.0142
+          }
+        ],
+        "sensor_check_pct": 100.0,
+        "frames": 226,
+        "delivered": 226,
+        "track_range_rmse_cm": 0.8671293266245282,
+        "track_speed_rmse_mps": 0.031588618487734345,
+        "capture_t": 0.4,
+        "capture_range_true": 59.4,
+        "aibt_count": 1,
+        "aibt_true": 28.5,
+        "aibt_err_s": 0.10000000000000142,
+        "stop_pos_err_m": -0.014201021594541174,
+        "reported_dist_to_line_m": -1.0142010215945412,
+        "tobt_reported_s": 2760.0,
+        "tobt_true_s": 2760.0,
+        "tobt_change_min": 0.0,
+        "overshoot_raised": true,
+        "track_lost": 0,
+        "obstacle_false_frames": 0,
+        "udp_latency_ms_median": 0.03675500011013355,
+        "udp_latency_ms_p99": 0.07903525022356916,
+        "msg_bytes_median": 521.0,
+        "pass": true
+      },
+      "v2": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 0.4,
+            "range": 59.3841
+          },
+          {
+            "kind": "OVERSHOOT",
+            "t": 26.8,
+            "range": 21.4156
+          },
+          {
+            "kind": "AIBT",
+            "t": 28.6,
+            "stop_range": 20.9858,
+            "dist_to_line": -1.0142
+          }
+        ],
+        "sensor_check_pct": 100.0,
+        "frames": 226,
+        "delivered": 226,
+        "track_range_rmse_cm": 0.8671293266245282,
+        "track_speed_rmse_mps": 0.031588618487734345,
+        "capture_t": 0.4,
+        "capture_range_true": 59.4,
+        "aibt_count": 1,
+        "aibt_true": 28.5,
+        "aibt_err_s": 0.10000000000000142,
+        "stop_pos_err_m": -0.014201021594541174,
+        "reported_dist_to_line_m": -1.0142010215945412,
+        "tobt_reported_s": 2760.0,
+        "tobt_true_s": 2760.0,
+        "tobt_change_min": 0.0,
+        "overshoot_raised": true,
+        "track_lost": 0,
+        "obstacle_false_frames": 0,
+        "pass": true
+      }
+    },
+    "S6": {
+      "v1": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 0.4,
+            "range": 59.3841
+          },
+          {
+            "kind": "OBSTACLE",
+            "t": 9.8
+          },
+          {
+            "kind": "AIBT",
+            "t": 27.8,
+            "stop_range": 21.9867,
+            "dist_to_line": -0.0133
+          }
+        ],
+        "sensor_check_pct": 100.0,
+        "frames": 226,
+        "delivered": 226,
+        "track_range_rmse_cm": 0.870338722957078,
+        "track_speed_rmse_mps": 0.03136394204303951,
+        "capture_t": 0.4,
+        "capture_range_true": 59.4,
+        "aibt_count": 1,
+        "aibt_true": 27.833333333333332,
+        "aibt_err_s": -0.03333333333333144,
+        "stop_pos_err_m": -0.013317022031145598,
+        "reported_dist_to_line_m": -0.013317022031145598,
+        "tobt_reported_s": 2760.0,
+        "tobt_true_s": 2760.0,
+        "tobt_change_min": 0.0,
+        "overshoot_raised": false,
+        "track_lost": 0,
+        "obstacle_detect_pct": 100.0,
+        "obstacle_first_delay_s": 0.0,
+        "obstacle_false_frames": 0,
+        "udp_latency_ms_median": 0.031669000009060255,
+        "udp_latency_ms_p99": 0.07057824984713079,
+        "msg_bytes_median": 521.0,
+        "pass": true
+      },
+      "v2": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 0.4,
+            "range": 59.3841
+          },
+          {
+            "kind": "OBSTACLE",
+            "t": 9.8
+          },
+          {
+            "kind": "AIBT",
+            "t": 27.8,
+            "stop_range": 21.9867,
+            "dist_to_line": -0.0133
+          }
+        ],
+        "sensor_check_pct": 100.0,
+        "frames": 226,
+        "delivered": 226,
+        "track_range_rmse_cm": 0.870338722957078,
+        "track_speed_rmse_mps": 0.03136394204303951,
+        "capture_t": 0.4,
+        "capture_range_true": 59.4,
+        "aibt_count": 1,
+        "aibt_true": 27.833333333333332,
+        "aibt_err_s": -0.03333333333333144,
+        "stop_pos_err_m": -0.013317022031145598,
+        "reported_dist_to_line_m": -0.013317022031145598,
+        "tobt_reported_s": 2760.0,
+        "tobt_true_s": 2760.0,
+        "tobt_change_min": 0.0,
+        "overshoot_raised": false,
+        "track_lost": 0,
+        "obstacle_detect_pct": 100.0,
+        "obstacle_first_delay_s": 0.0,
+        "obstacle_false_frames": 0,
+        "pass": true
+      }
+    },
+    "S7": {
+      "v1": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 0.4,
+            "range": 59.3841
+          },
+          {
+            "kind": "OBSTACLE",
+            "t": 10.2
+          },
+          {
+            "kind": "AIBT",
+            "t": 27.8,
+            "stop_range": 21.9867,
+            "dist_to_line": -0.0133
+          }
+        ],
+        "sensor_check_pct": 100.0,
+        "frames": 226,
+        "delivered": 226,
+        "track_range_rmse_cm": 0.870338722957078,
+        "track_speed_rmse_mps": 0.03136394204303951,
+        "capture_t": 0.4,
+        "capture_range_true": 59.4,
+        "aibt_count": 1,
+        "aibt_true": 27.833333333333332,
+        "aibt_err_s": -0.03333333333333144,
+        "stop_pos_err_m": -0.013317022031145598,
+        "reported_dist_to_line_m": -0.013317022031145598,
+        "tobt_reported_s": 2760.0,
+        "tobt_true_s": 2760.0,
+        "tobt_change_min": 0.0,
+        "overshoot_raised": false,
+        "track_lost": 0,
+        "obstacle_detect_pct": 100.0,
+        "obstacle_first_delay_s": 1.7763568394002505e-15,
+        "obstacle_false_frames": 0,
+        "udp_latency_ms_median": 0.03514700006235216,
+        "udp_latency_ms_p99": 0.09306375011419732,
+        "msg_bytes_median": 521.0,
+        "pass": true
+      },
+      "v2": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 0.4,
+            "range": 59.3841
+          },
+          {
+            "kind": "OBSTACLE",
+            "t": 10.2
+          },
+          {
+            "kind": "AIBT",
+            "t": 27.8,
+            "stop_range": 21.9867,
+            "dist_to_line": -0.0133
+          }
+        ],
+        "sensor_check_pct": 100.0,
+        "frames": 226,
+        "delivered": 226,
+        "track_range_rmse_cm": 0.870338722957078,
+        "track_speed_rmse_mps": 0.03136394204303951,
+        "capture_t": 0.4,
+        "capture_range_true": 59.4,
+        "aibt_count": 1,
+        "aibt_true": 27.833333333333332,
+        "aibt_err_s": -0.03333333333333144,
+        "stop_pos_err_m": -0.013317022031145598,
+        "reported_dist_to_line_m": -0.013317022031145598,
+        "tobt_reported_s": 2760.0,
+        "tobt_true_s": 2760.0,
+        "tobt_change_min": 0.0,
+        "overshoot_raised": false,
+        "track_lost": 0,
+        "obstacle_detect_pct": 100.0,
+        "obstacle_first_delay_s": 1.7763568394002505e-15,
+        "obstacle_false_frames": 0,
+        "pass": true
+      }
+    },
+    "S8": {
+      "v1": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 19.4,
+            "range": 30.9425
+          },
+          {
+            "kind": "AIBT",
+            "t": 27.8,
+            "stop_range": 21.9833,
+            "dist_to_line": -0.0167
+          }
+        ],
+        "sensor_check_pct": 61.06194690265486,
+        "frames": 226,
+        "delivered": 226,
+        "track_range_rmse_cm": 1.415838475182613,
+        "track_speed_rmse_mps": 0.042992767036746427,
+        "capture_t": 19.400000000000002,
+        "capture_range_true": 30.9,
+        "aibt_count": 1,
+        "aibt_true": 27.833333333333332,
+        "aibt_err_s": -0.03333333333333144,
+        "stop_pos_err_m": -0.01669771804464304,
+        "reported_dist_to_line_m": -0.01669771804464304,
+        "tobt_reported_s": 2760.0,
+        "tobt_true_s": 2760.0,
+        "tobt_change_min": 0.0,
+        "overshoot_raised": false,
+        "track_lost": 0,
+        "obstacle_false_frames": 0,
+        "udp_latency_ms_median": 0.032078000003821217,
+        "udp_latency_ms_p99": 0.06936549993952212,
+        "msg_bytes_median": 381.0,
+        "pass": true
+      },
+      "v2": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 19.4,
+            "range": 30.9425
+          },
+          {
+            "kind": "AIBT",
+            "t": 27.8,
+            "stop_range": 21.9833,
+            "dist_to_line": -0.0167
+          }
+        ],
+        "sensor_check_pct": 61.06194690265486,
+        "frames": 226,
+        "delivered": 226,
+        "track_range_rmse_cm": 1.415838475182613,
+        "track_speed_rmse_mps": 0.042992767036746427,
+        "capture_t": 19.400000000000002,
+        "capture_range_true": 30.9,
+        "aibt_count": 1,
+        "aibt_true": 27.833333333333332,
+        "aibt_err_s": -0.03333333333333144,
+        "stop_pos_err_m": -0.01669771804464304,
+        "reported_dist_to_line_m": -0.01669771804464304,
+        "tobt_reported_s": 2760.0,
+        "tobt_true_s": 2760.0,
+        "tobt_change_min": 0.0,
+        "overshoot_raised": false,
+        "track_lost": 0,
+        "obstacle_false_frames": 0,
+        "pass": true
+      }
+    },
+    "S9": {
+      "v1": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 0.4,
+            "range": 59.3841
+          },
+          {
+            "kind": "TRACK_LOST",
+            "t": 25.8,
+            "reason": "message timeout"
+          }
+        ],
+        "sensor_check_pct": 100.0,
+        "frames": 226,
+        "delivered": 215,
+        "track_range_rmse_cm": 0.848739618832388,
+        "track_speed_rmse_mps": 0.02642494653120392,
+        "capture_t": 0.4,
+        "capture_range_true": 59.4,
+        "aibt_count": 0,
+        "aibt_true": 27.833333333333332,
+        "overshoot_raised": false,
+        "track_lost": 1,
+        "obstacle_false_frames": 0,
+        "udp_latency_ms_median": 0.032545000067329966,
+        "udp_latency_ms_p99": 0.08059409985435187,
+        "msg_bytes_median": 521.0,
+        "pass": false
+      },
+      "v2": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 0.4,
+            "range": 59.3841
+          },
+          {
+            "kind": "TRACK_LOST",
+            "t": 25.8,
+            "reason": "message timeout"
+          },
+          {
+            "kind": "REACQUIRE",
+            "t": 27.6,
+            "range": 22.0111
+          },
+          {
+            "kind": "AIBT",
+            "t": 27.8,
+            "stop_range": 22.0031,
+            "dist_to_line": 0.0031
+          }
+        ],
+        "sensor_check_pct": 100.0,
+        "frames": 226,
+        "delivered": 215,
+        "track_range_rmse_cm": 0.6934565683367313,
+        "track_speed_rmse_mps": 0.020256042758121092,
+        "capture_t": 0.4,
+        "capture_range_true": 59.4,
+        "aibt_count": 1,
+        "aibt_true": 27.833333333333332,
+        "aibt_err_s": -0.03333333333333144,
+        "stop_pos_err_m": 0.0031285251715829077,
+        "reported_dist_to_line_m": 0.0031285251715829077,
+        "tobt_reported_s": 2760.0,
+        "tobt_true_s": 2760.0,
+        "tobt_change_min": 0.0,
+        "overshoot_raised": false,
+        "track_lost": 1,
+        "obstacle_false_frames": 0,
+        "pass": true
+      }
+    },
+    "S10": {
+      "v1": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 0.9,
+            "range": 59.3841
+          },
+          {
+            "kind": "AIBT",
+            "t": 28.3,
+            "stop_range": 21.9867,
+            "dist_to_line": -0.0133
+          }
+        ],
+        "sensor_check_pct": 100.0,
+        "frames": 226,
+        "delivered": 226,
+        "track_range_rmse_cm": 0.870338722957078,
+        "track_speed_rmse_mps": 0.03136394204303951,
+        "capture_t": 0.9,
+        "capture_range_true": 58.65,
+        "aibt_count": 1,
+        "aibt_true": 27.833333333333332,
+        "aibt_err_s": 0.46666666666666856,
+        "stop_pos_err_m": -0.013317022031145598,
+        "reported_dist_to_line_m": -0.013317022031145598,
+        "tobt_reported_s": 2760.0,
+        "tobt_true_s": 2760.0,
+        "tobt_change_min": 0.0,
+        "overshoot_raised": false,
+        "track_lost": 0,
+        "obstacle_false_frames": 0,
+        "udp_latency_ms_median": 0.03165599991916679,
+        "udp_latency_ms_p99": 0.08179725011814298,
+        "msg_bytes_median": 521.0,
+        "pass": true
+      },
+      "v2": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 0.9,
+            "range": 59.3841
+          },
+          {
+            "kind": "AIBT",
+            "t": 28.3,
+            "stop_range": 21.9867,
+            "dist_to_line": -0.0133
+          }
+        ],
+        "sensor_check_pct": 100.0,
+        "frames": 226,
+        "delivered": 226,
+        "track_range_rmse_cm": 0.870338722957078,
+        "track_speed_rmse_mps": 0.03136394204303951,
+        "capture_t": 0.9,
+        "capture_range_true": 58.65,
+        "aibt_count": 1,
+        "aibt_true": 27.833333333333332,
+        "aibt_err_s": 0.46666666666666856,
+        "stop_pos_err_m": -0.013317022031145598,
+        "reported_dist_to_line_m": -0.013317022031145598,
+        "tobt_reported_s": 2760.0,
+        "tobt_true_s": 2760.0,
+        "tobt_change_min": 0.0,
+        "overshoot_raised": false,
+        "track_lost": 0,
+        "obstacle_false_frames": 0,
+        "pass": true
+      }
+    },
+    "S11": {
+      "v1": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 0.4,
+            "range": 59.3841
+          },
+          {
+            "kind": "OBSTACLE",
+            "t": 0.6
+          },
+          {
+            "kind": "TRACK_LOST",
+            "t": 25.4,
+            "reason": "no association"
+          },
+          {
+            "kind": "CAPTURE",
+            "t": 26.0,
+            "range": 27.5072
+          },
+          {
+            "kind": "OBSTACLE",
+            "t": 26.2
+          },
+          {
+            "kind": "AIBT",
+            "t": 28.0,
+            "stop_range": 26.9881,
+            "dist_to_line": 4.9881
+          }
+        ],
+        "sensor_check_pct": 94.69026548672566,
+        "frames": 226,
+        "delivered": 226,
+        "track_range_rmse_cm": 329.6361212827896,
+        "track_speed_rmse_mps": 0.042045669410999874,
+        "capture_t": 0.4,
+        "capture_range_true": 59.4,
+        "aibt_count": 1,
+        "aibt_true": 27.833333333333332,
+        "aibt_err_s": 0.16666666666666785,
+        "stop_pos_err_m": 4.988127116772411,
+        "reported_dist_to_line_m": 4.988127116772411,
+        "tobt_reported_s": 2760.0,
+        "tobt_true_s": 2760.0,
+        "tobt_change_min": 0.0,
+        "overshoot_raised": false,
+        "track_lost": 1,
+        "obstacle_false_frames": 213,
+        "udp_latency_ms_median": 0.030756500109418994,
+        "udp_latency_ms_p99": 0.07325475030484085,
+        "msg_bytes_median": 659.0,
+        "pass": false
+      },
+      "v2": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 0.4,
+            "range": 59.3841
+          },
+          {
+            "kind": "OBSTACLE",
+            "t": 0.6
+          },
+          {
+            "kind": "TRACK_LOST",
+            "t": 25.4,
+            "reason": "no association"
+          },
+          {
+            "kind": "REACQUIRE",
+            "t": 26.0,
+            "range": 23.0004
+          },
+          {
+            "kind": "AIBT",
+            "t": 26.2,
+            "stop_range": 22.9954,
+            "dist_to_line": 0.9954
+          }
+        ],
+        "sensor_check_pct": 94.69026548672566,
+        "frames": 226,
+        "delivered": 226,
+        "track_range_rmse_cm": 64.45026493046628,
+        "track_speed_rmse_mps": 0.0800841945080754,
+        "capture_t": 0.4,
+        "capture_range_true": 59.4,
+        "aibt_count": 1,
+        "aibt_true": 27.833333333333332,
+        "aibt_err_s": -1.6333333333333293,
+        "stop_pos_err_m": 0.9953501237382092,
+        "reported_dist_to_line_m": 0.9953501237382092,
+        "tobt_reported_s": 2760.0,
+        "tobt_true_s": 2760.0,
+        "tobt_change_min": 0.0,
+        "overshoot_raised": false,
+        "track_lost": 1,
+        "obstacle_false_frames": 118,
+        "pass": false
+      }
+    },
+    "S12": {
+      "v1": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 0.4,
+            "range": 59.3841
+          },
+          {
+            "kind": "AIBT",
+            "t": 27.8,
+            "stop_range": 21.9867,
+            "dist_to_line": -0.0133
+          },
+          {
+            "kind": "AOBT",
+            "t": 60.2,
+            "range": 22.5476
+          }
+        ],
+        "sensor_check_pct": 100.0,
+        "frames": 376,
+        "delivered": 376,
+        "track_range_rmse_cm": 0.7479059902073123,
+        "track_speed_rmse_mps": 0.026851162537964286,
+        "capture_t": 0.4,
+        "capture_range_true": 59.4,
+        "aibt_count": 1,
+        "aibt_true": 27.833333333333332,
+        "aibt_err_s": -0.03333333333333144,
+        "stop_pos_err_m": -0.013317022031145598,
+        "reported_dist_to_line_m": -0.013317022031145598,
+        "tobt_reported_s": 2760.0,
+        "tobt_true_s": 2760.0,
+        "tobt_change_min": 0.0,
+        "overshoot_raised": false,
+        "track_lost": 0,
+        "aobt_err_s": 2.3666666666666742,
+        "obstacle_false_frames": 0,
+        "udp_latency_ms_median": 0.03135200017823081,
+        "udp_latency_ms_p99": 0.06943999994746264,
+        "msg_bytes_median": 520.0,
+        "pass": false
+      },
+      "v2": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 0.4,
+            "range": 59.3841
+          },
+          {
+            "kind": "AIBT",
+            "t": 27.8,
+            "stop_range": 21.9867,
+            "dist_to_line": -0.0133
+          },
+          {
+            "kind": "AOBT",
+            "t": 58.4,
+            "range": 22.5476,
+            "backdated": true
+          }
+        ],
+        "sensor_check_pct": 100.0,
+        "frames": 376,
+        "delivered": 376,
+        "track_range_rmse_cm": 0.7479059902073123,
+        "track_speed_rmse_mps": 0.026851162537964286,
+        "capture_t": 0.4,
+        "capture_range_true": 59.4,
+        "aibt_count": 1,
+        "aibt_true": 27.833333333333332,
+        "aibt_err_s": -0.03333333333333144,
+        "stop_pos_err_m": -0.013317022031145598,
+        "reported_dist_to_line_m": -0.013317022031145598,
+        "tobt_reported_s": 2760.0,
+        "tobt_true_s": 2760.0,
+        "tobt_change_min": 0.0,
+        "overshoot_raised": false,
+        "track_lost": 0,
+        "aobt_err_s": 0.5666666666666771,
+        "obstacle_false_frames": 0,
+        "pass": true
+      }
+    },
+    "S13": {
+      "v1": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 0.4,
+            "range": 59.3841
+          },
+          {
+            "kind": "OBSTACLE",
+            "t": 27.2
+          },
+          {
+            "kind": "TRACK_LOST",
+            "t": 28.0,
+            "reason": "no association"
+          }
+        ],
+        "sensor_check_pct": 93.36283185840708,
+        "frames": 226,
+        "delivered": 226,
+        "track_range_rmse_cm": 56.966297234129435,
+        "track_speed_rmse_mps": 0.09603201687750208,
+        "capture_t": 0.4,
+        "capture_range_true": 59.4,
+        "aibt_count": 0,
+        "aibt_true": 27.833333333333332,
+        "overshoot_raised": false,
+        "track_lost": 1,
+        "obstacle_false_frames": 5,
+        "udp_latency_ms_median": 0.034507500004110625,
+        "udp_latency_ms_p99": 0.099645499858525,
+        "msg_bytes_median": 521.0,
+        "pass": false
+      },
+      "v2": {
+        "events": [
+          {
+            "kind": "CAPTURE",
+            "t": 0.4,
+            "range": 59.3841
+          },
+          {
+            "kind": "OBSTACLE",
+            "t": 27.2
+          },
+          {
+            "kind": "TRACK_LOST",
+            "t": 28.0,
+            "reason": "no association"
+          },
+          {
+            "kind": "REACQUIRE",
+            "t": 28.6,
+            "range": 22.0022
+          },
+          {
+            "kind": "AIBT",
+            "t": 28.8,
+            "stop_range": 22.0065,
+            "dist_to_line": 0.0065
+          }
+        ],
+        "sensor_check_pct": 93.36283185840708,
+        "frames": 226,
+        "delivered": 226,
+        "track_range_rmse_cm": 45.016115107921955,
+        "track_speed_rmse_mps": 0.07589496163983689,
+        "capture_t": 0.4,
+        "capture_range_true": 59.4,
+        "aibt_count": 1,
+        "aibt_true": 27.833333333333332,
+        "aibt_err_s": 0.9666666666666686,
+        "stop_pos_err_m": 0.006458925904695434,
+        "reported_dist_to_line_m": 0.006458925904695434,
+        "tobt_reported_s": 2760.0,
+        "tobt_true_s": 2760.0,
+        "tobt_change_min": 0.0,
+        "overshoot_raised": false,
+        "track_lost": 1,
+        "obstacle_false_frames": 5,
+        "pass": true
+      }
+    }
+  },
+  "titles": {
+    "S3": "Straight approach at taxi speed, stop at the stop line",
+    "S4": "Faster entry with long, gradual slow-down",
+    "S5": "Aircraft stops 1.0 m past the stop line",
+    "S6": "Ground vehicle crosses the stand during the approach",
+    "S7": "Person walks across the stand during the approach",
+    "S8": "Nominal approach with SNR reduced by 15 dB",
+    "S9": "Detection stream lost for 2 s during final braking",
+    "S10": "500 ms extra delay on the detection stream",
+    "S11": "Stationary ghost echo 1 m short of the stop line",
+    "S12": "Docking, 30 s on block, then pushback",
+    "S13": "Sensor output frozen for 3 s during final approach"
+  },
+  "pipeline_ms_per_frame_mean": 14.190717063480024,
+  "latency_sweep": {
+    "0.0_receive": {
+      "delay_s": 0.0,
+      "stamp": "receive",
+      "aibt_err_s": -0.03333333333333144,
+      "tobt_change_min": 0.0
+    },
+    "0.0_sensor": {
+      "delay_s": 0.0,
+      "stamp": "sensor",
+      "aibt_err_s": -0.03333333333333144,
+      "tobt_change_min": 0.0
+    },
+    "0.2_receive": {
+      "delay_s": 0.2,
+      "stamp": "receive",
+      "aibt_err_s": 0.16666666666666785,
+      "tobt_change_min": 0.0
+    },
+    "0.2_sensor": {
+      "delay_s": 0.2,
+      "stamp": "sensor",
+      "aibt_err_s": -0.03333333333333144,
+      "tobt_change_min": 0.0
+    },
+    "0.5_receive": {
+      "delay_s": 0.5,
+      "stamp": "receive",
+      "aibt_err_s": 0.46666666666666856,
+      "tobt_change_min": 0.0
+    },
+    "0.5_sensor": {
+      "delay_s": 0.5,
+      "stamp": "sensor",
+      "aibt_err_s": -0.03333333333333144,
+      "tobt_change_min": 0.0
+    },
+    "1.0_receive": {
+      "delay_s": 1.0,
+      "stamp": "receive",
+      "aibt_err_s": 0.9666666666666686,
+      "tobt_change_min": 0.0
+    },
+    "1.0_sensor": {
+      "delay_s": 1.0,
+      "stamp": "sensor",
+      "aibt_err_s": -0.03333333333333144,
+      "tobt_change_min": 0.0
+    },
+    "2.0_receive": {
+      "delay_s": 2.0,
+      "stamp": "receive",
+      "aibt_err_s": 1.9666666666666686,
+      "tobt_change_min": 0.0
+    },
+    "2.0_sensor": {
+      "delay_s": 2.0,
+      "stamp": "sensor",
+      "aibt_err_s": -0.03333333333333144,
+      "tobt_change_min": 0.0
+    }
+  },
+  "monte_carlo": {
+    "S3": {
+      "runs": 20,
+      "aibt_err_mean_s": 0.0966666666666681,
+      "aibt_err_std_s": 0.09539392014169423,
+      "aibt_err_maxabs_s": 0.16666666666666785,
+      "stop_pos_err_mean_cm": -1.066778308350429,
+      "stop_pos_err_maxabs_cm": 1.3996693468250498,
+      "track_range_rmse_cm_mean": 0.9170226368737856,
+      "track_speed_rmse_mps_mean": 0.03186818653952371
+    },
+    "S4": {
+      "runs": 20,
+      "aibt_err_mean_s": -0.3333333333333286,
+      "aibt_err_std_s": 0.0,
+      "aibt_err_maxabs_s": 0.3333333333333286,
+      "stop_pos_err_mean_cm": -0.5292844418529796,
+      "stop_pos_err_maxabs_cm": 0.7461771985965981,
+      "track_range_rmse_cm_mean": 0.8453972678406048,
+      "track_speed_rmse_mps_mean": 0.030671699830439346
+    }
+  },
+  "snr_sweep": [
+    {
+      "snr_ref_db": -15,
+      "runs": 10,
+      "captured": 10,
+      "capture_range_median": 59.4,
+      "capture_range_min": 59.4,
+      "capture_range_max": 59.4,
+      "aibt_ok": 10,
+      "aibt_ok_v1": 10
+    },
+    {
+      "snr_ref_db": -20,
+      "runs": 10,
+      "captured": 10,
+      "capture_range_median": 57.75,
+      "capture_range_min": 54.9,
+      "capture_range_max": 59.4,
+      "aibt_ok": 10,
+      "aibt_ok_v1": 7
+    },
+    {
+      "snr_ref_db": -25,
+      "runs": 10,
+      "captured": 10,
+      "capture_range_median": 44.4,
+      "capture_range_min": 41.099999999999994,
+      "capture_range_max": 47.7,
+      "aibt_ok": 10,
+      "aibt_ok_v1": 9
+    },
+    {
+      "snr_ref_db": -30,
+      "runs": 10,
+      "captured": 10,
+      "capture_range_median": 31.949999999999996,
+      "capture_range_min": 28.799999999999997,
+      "capture_range_max": 33.599999999999994,
+      "aibt_ok": 10,
+      "aibt_ok_v1": 10
+    },
+    {
+      "snr_ref_db": -33,
+      "runs": 10,
+      "captured": 10,
+      "capture_range_median": 25.949999999999996,
+      "capture_range_min": 24.440166666666663,
+      "capture_range_max": 27.0,
+      "aibt_ok": 10,
+      "aibt_ok_v1": 10
+    },
+    {
+      "snr_ref_db": -36,
+      "runs": 10,
+      "captured": 1,
+      "capture_range_median": 24.204166666666666,
+      "capture_range_min": 24.204166666666666,
+      "capture_range_max": 24.204166666666666,
+      "aibt_ok": 1,
+      "aibt_ok_v1": 1
+    },
+    {
+      "snr_ref_db": -39,
+      "runs": 10,
+      "captured": 0,
+      "capture_range_median": null,
+      "capture_range_min": null,
+      "capture_range_max": null,
+      "aibt_ok": 0,
+      "aibt_ok_v1": 0
+    }
+  ]
+}

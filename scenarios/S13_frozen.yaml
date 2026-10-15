@@ -1,0 +1,6 @@
+id: S13
+title: Sensor output frozen for 3 s during final approach
+duration: 45
+trajectory: {start_range: 60, entry_speed: 1.5, decel: 0.3, stop_line: 22.0}
+faults:
+  frozen: {t0: 24.0, t1: 27.0}

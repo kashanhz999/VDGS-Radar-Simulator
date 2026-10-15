@@ -1,0 +1,4 @@
+id: S4
+title: Faster entry with long, gradual slow-down
+duration: 40
+trajectory: {start_range: 60, entry_speed: 2.5, decel: 0.15, stop_line: 22.0}

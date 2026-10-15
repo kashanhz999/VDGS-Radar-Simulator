@@ -1,0 +1,6 @@
+id: S7
+title: Person walks across the stand during the approach
+duration: 45
+trajectory: {start_range: 60, entry_speed: 1.5, decel: 0.3, stop_line: 22.0}
+actors:
+  - {label: person, d: 10.0, x0: -6.0, vx: 1.2, t0: 10.0, t1: 20.0, rcs_m2: 0.5}

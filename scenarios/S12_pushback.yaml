@@ -1,0 +1,4 @@
+id: S12
+title: Docking, 30 s on block, then pushback
+duration: 75
+trajectory: {start_range: 60, entry_speed: 1.5, decel: 0.3, stop_line: 22.0, pushback_after: 30.0}

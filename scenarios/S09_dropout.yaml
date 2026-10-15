@@ -1,0 +1,6 @@
+id: S9
+title: Detection stream lost for 2 s during final braking
+duration: 45
+trajectory: {start_range: 60, entry_speed: 1.5, decel: 0.3, stop_line: 22.0}
+faults:
+  dropout: {t0: 25.0, t1: 27.0}

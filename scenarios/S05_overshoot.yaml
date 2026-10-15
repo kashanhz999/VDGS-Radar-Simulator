@@ -1,0 +1,4 @@
+id: S5
+title: Aircraft stops 1.0 m past the stop line
+duration: 45
+trajectory: {start_range: 60, entry_speed: 1.5, decel: 0.3, stop_line: 22.0, stop_error: -1.0}

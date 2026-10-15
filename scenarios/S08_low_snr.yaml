@@ -1,0 +1,5 @@
+id: S8
+title: Nominal approach with SNR reduced by 15 dB
+duration: 45
+snr_ref_db: -30
+trajectory: {start_range: 60, entry_speed: 1.5, decel: 0.3, stop_line: 22.0}

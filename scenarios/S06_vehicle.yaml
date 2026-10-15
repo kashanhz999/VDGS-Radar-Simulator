@@ -1,0 +1,6 @@
+id: S6
+title: Ground vehicle crosses the stand during the approach
+duration: 45
+trajectory: {start_range: 60, entry_speed: 1.5, decel: 0.3, stop_line: 22.0}
+actors:
+  - {label: vehicle, d: 12.0, x0: -15.0, vx: 5.0, t0: 8.0, t1: 14.0, rcs_m2: 10.0}

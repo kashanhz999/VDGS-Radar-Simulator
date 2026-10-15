@@ -1,0 +1,6 @@
+id: S11
+title: Stationary ghost echo 1 m short of the stop line
+duration: 45
+trajectory: {start_range: 60, entry_speed: 1.5, decel: 0.3, stop_line: 22.0}
+reflectors:
+  - {label: ghost, range_m: 23.0, rcs_m2: 20.0, t0: 0.0, t1: 45.0}
